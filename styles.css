@@ -21,8 +21,7 @@ body {
   background: var(--bg);
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-  font-size: 18px;
-  line-height: 1.6;
+  line-height: 1.55;
 }
 
 a { color: inherit; }
