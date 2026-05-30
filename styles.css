@@ -110,7 +110,7 @@ a { color: inherit; }
 
 .story p,
 .excerpt p,
-.excerpt .citation {
+.citation {
   color: var(--muted);
   font-size: 13px;
   letter-spacing: 0.01em;
@@ -124,8 +124,7 @@ a { color: inherit; }
   margin: 0 0 16px;
 }
 
-.excerpt .citation {
-  display: block;
+.citation {
   margin-top: 22px;
 }
 
