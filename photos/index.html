@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Daniel Blay</title>
-  <meta name="description" content="Personal website of Daniel Blay." />
+  <title>photos — Daniel Blay</title>
+  <meta name="description" content="Photos by Daniel Blay." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet" />
@@ -16,7 +16,7 @@
       <a href="/" class="brand">Daniel Blay</a>
       <nav class="nav">
         <a href="/writings/">writings</a>
-        <a href="/photos/">photos</a>
+        <a href="/photos/" class="active">photos</a>
         <a href="/links/">links</a>
         <a href="/press/">press</a>
         <a href="/about/">about</a>
@@ -26,10 +26,18 @@
     <div class="divider" aria-hidden="true"></div>
 
     <main class="content">
-      <figure class="hero">
-        <img src="/images/tesla.jpg" alt="Nikola Tesla seated in his Colorado Springs laboratory as electrical discharges arc across the room, 1899." loading="eager" />
-        <figcaption>Nikola Tesla in his Colorado Springs laboratory, 1899.</figcaption>
-      </figure>
+      <section class="view">
+        <h1>photos</h1>
+        <div class="photo-grid">
+          <div class="photo-placeholder"></div>
+          <div class="photo-placeholder"></div>
+          <div class="photo-placeholder"></div>
+          <div class="photo-placeholder"></div>
+          <div class="photo-placeholder"></div>
+          <div class="photo-placeholder"></div>
+        </div>
+        <p class="hint">Drop image files in the <code>images/</code> folder and swap the placeholders for <code>&lt;img&gt;</code> tags.</p>
+      </section>
     </main>
   </div>
 </body>
