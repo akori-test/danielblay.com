@@ -97,34 +97,10 @@ a { color: inherit; }
 }
 
 .hero figcaption {
-  margin-top: 12px;
+  margin-top: 10px;
   color: var(--muted);
-}
-
-/* ---------- Homepage story / excerpt ---------- */
-.story {
-  max-width: 640px;
-  margin-top: 40px;
-}
-
-.story > p {
-  color: var(--ink);
-}
-
-.excerpt {
-  margin: 28px 0 0;
-  padding-left: 22px;
-  border-left: 2px solid var(--line);
-  color: #555;
-}
-
-.excerpt p {
-  margin: 0 0 16px;
-}
-
-.excerpt .citation {
-  display: block;
-  margin-top: 22px;
+  font-size: 15px;
+  letter-spacing: 0.01em;
 }
 
 /* ---------- Inner pages ---------- */
