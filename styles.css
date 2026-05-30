@@ -16,7 +16,7 @@ html, body {
 }
 
 body {
-  font-family: "Courier Prime", "Courier New", Courier, monospace;
+  font-family: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, "Courier New", monospace;
   color: var(--ink);
   background: var(--bg);
   -webkit-font-smoothing: antialiased;
