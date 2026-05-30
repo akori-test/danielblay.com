@@ -16,12 +16,13 @@ html, body {
 }
 
 body {
-  font-family: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, "Courier New", monospace;
+  font-family: "EB Garamond", Georgia, "Times New Roman", serif;
   color: var(--ink);
   background: var(--bg);
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-  line-height: 1.55;
+  font-size: 18px;
+  line-height: 1.6;
 }
 
 a { color: inherit; }
