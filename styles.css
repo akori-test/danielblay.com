@@ -82,25 +82,23 @@ a { color: inherit; }
   min-width: 0;
 }
 
-/* ---------- Home / art ---------- */
-.art-frame {
-  background: var(--frame);
-  padding: 22px;
-  display: inline-block;
-  max-width: 100%;
+/* ---------- Home / hero photo ---------- */
+.hero {
+  margin: 0;
+  max-width: 760px;
 }
 
-.panels {
-  display: flex;
-  gap: 22px;
-}
-
-.panel {
+.hero img {
   display: block;
-  width: 220px;
-  height: 286px;
-  max-width: 100%;
+  width: 100%;
   height: auto;
+}
+
+.hero figcaption {
+  margin-top: 10px;
+  color: var(--muted);
+  font-size: 13px;
+  letter-spacing: 0.01em;
 }
 
 /* ---------- Inner pages ---------- */
